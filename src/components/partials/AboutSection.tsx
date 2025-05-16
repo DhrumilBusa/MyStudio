@@ -20,7 +20,7 @@ const AboutSection = () => {
 
             Whether it's crafting responsive UI, integrating APIs, or optimizing backend logic — I love the full cycle of bringing products to life through clean, efficient code.
           </p>
-          <Link href="/AK_resume.pdf" download>
+          <Link href="/Dhrumil Busa.pdf" download>
             <Button className="mt-5">Download CV</Button>
           </Link>
         </div>
