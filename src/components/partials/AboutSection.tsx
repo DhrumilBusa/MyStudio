@@ -1,8 +1,8 @@
-import Button from '@/components/form/Button';
-import SectionTitle from '@/components/shared/SectionTitle';
+import Button from 'src/components/form/Button';
+import SectionTitle from 'src/components/shared/SectionTitle';
 import { FiCoffee } from 'react-icons/fi';
 import { HiOutlineChartBar, HiOutlineFire, HiOutlineUsers } from 'react-icons/hi';
-import ProgressBar from '@/components/shared/ProgressBar';
+import ProgressBar from 'src/components/shared/ProgressBar';
 import Link from 'next/link';
 
 const AboutSection = () => {
@@ -20,8 +20,10 @@ const AboutSection = () => {
 
             Whether it's crafting responsive UI, integrating APIs, or optimizing backend logic — I love the full cycle of bringing products to life through clean, efficient code.
           </p>
-          <Link href="/Dhrumil Busa.pdf" download>
-            <Button className="mt-5">Download CV</Button>
+          <Link href="/Dhrumil Busa.pdf" passHref>
+            <a download>
+              <Button className="mt-5">Download CV</Button>
+            </a>
           </Link>
         </div>
 
@@ -71,9 +73,6 @@ const AboutSection = () => {
             <p className="mt-1">Projects Completed</p>
           </div>
         </div>
-
-
-
 
         <div className="flex">
           <div className="mr-5 text-gray-300">
